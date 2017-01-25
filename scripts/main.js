@@ -1,3 +1,6 @@
+
+
+
 //Let's Play Rock, Paper, Scissors!
 //Global Variables
 var userChoice;
@@ -45,14 +48,17 @@ function getWinner (playerMove, computerMove){
                
  console.log("The winner is " + getWinner("rock", "paper")); //calls function with two arguments to test and logs a message in console
 
+
+
 //function to keep track of how many times the player and the computer have won - this is a game of best of five
 function playToFive() {
-	console.log("Let's play Rock Paper Scissors");
+	//console.log("Let's play Rock Paper Scissors");
   	playerRunningTotal = 0; //start each total with zero
   	computerRunningTotal = 0; //start each total with zero
 	
     while (playerRunningTotal < 5 && computerRunningTotal < 5) {
-		userChoice = getPlayerMove(); //calls getPlayerMove function
+		    
+        userChoice = getPlayerMove(); //calls getPlayerMove function
       	computerChoice = getComputerMove(); //calls getComputerMove function
       	winner = getWinner(userChoice, computerChoice); //calls getWinner function with the arguments 'userChoice' which is the variable for the function getPlayerMove() and 'computerChoice' which is the variable for the function computerChoice()
 			
@@ -65,6 +71,7 @@ function playToFive() {
 	alert("Player chose " + userChoice + " while Computer chose " + computerChoice + "! \nThe score is Player "+ playerRunningTotal + ", Computer " + computerRunningTotal + "."); //alert is displayed after each round
   }
 }
+
 
 playToFive();
                
