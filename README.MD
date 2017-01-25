@@ -2,6 +2,7 @@ Project Title - Rock, Paper, Scissors game with the winner best out of 5
 
 Getting Started - to play the game simply open the index.html file in your browser and On your MAC use Option + Command + J to open your console to see your score. This is a work in progress so right now only prompts will take you through the game. 
 
+![smiling-dog](styles/images/smilingdog.jpg)
 
 Installing
 N/A
